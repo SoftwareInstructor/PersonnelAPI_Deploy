@@ -139,7 +139,7 @@ app.all('/', (req, res) => {
         user: req.user,
         api: {
             documents: {
-                swagger: '/documents/swagger',
+                swagger: 'https://personnel-api-deploy.vercel.app/documents/swagger',
                 redoc: 'http://127.0.0.1:8000/documents/redoc',
                 json: 'http://127.0.0.1:8000/documents/json',
             },
